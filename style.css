@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.gradient-background {
+    background: linear-gradient(300deg, #FFA6C9,#C22277, #000000);
+ background-size: 180% 180%;
+ animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
+}
+
+#home>div{
+    background: url("./image/cartoon2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    overflow: hidden;
+}
+/* About section */
+#about1>div{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+background-image: url("./image/cartoon.png");
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: cover;
+    margin: 0;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    
+}
+.about>p {
+    padding-left: 12rem;
+    width: 778px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 550;
+    
+}
+
+.about >h2{
+display: flex;
+justify-content: center;
+    font-size: 4rem;
+    color: #F47CB9;
+    margin-top: 83px;
+    width: 852px;
+}
+.about>img{
+    float: left;
+    grid-row-start: span 2;
+    width: 250px;
+    border-radius: 20px;
+}
+
+
+/* Work section */
+.work {
+    margin-top: 3px;
+}
+
+.work>h2{
+    display: flex;
+justify-content: center;
+padding: 2rem 2rem;
+font-size: 5rem;
+color: white;
+}
+.work-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.work-item .work-items{
+    margin: 2rem 2rem;
+}
+.work-items >h3 {
+  
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.work-items >p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 350px;
+    letter-spacing: 2px;
+    padding-left: 1.2rem
+}
+.work img{
+    height: 200px;
+    width: 300px;
+    border: 5px dotted white;
+    padding: 0.5rem;
+}
+
+/* Navbar section */
+.navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+
+    background-color:	#B31166;
+
+}
+.navbar-list li a:hover{
+    background-color:#ff1493	;
+    color:white;
+    font-size: 1.1rem;
+
+    border-radius: 50px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 12px;
+    font-size: 1rem;
+
+    font-family: 'Sansita', sans-serif;
+    display: block;
+    padding: 1rem 2rem;
+
+        text-transform: uppercase;
+}
+h1{
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Sacramento', cursive;
+    margin-top: 197px;
+    color: #B31166;
+    
+}
+.hero3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #B31166;
+    padding: 3rem 3rem 5rem 3rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    
+}
+img{
+    padding-top: 10px;
+    width: 200px;
+    height: 280px;
+
+}
+
+body{ 
+    padding: 0;
+    margin:0;
+ }
+ /* Contact section */
+.contacth2{
+    padding: 5rem 0 0 10rem;
+    color: black;
+    font-size: 4rem;
+    
+}
+.contact-items>p{
+    padding: 0.5rem 3rem 4rem 10rem;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+}
+#contact>div{
+    background: url(./image/abstract-pink-background-with-simply-curve-vector-14058261.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    opacity: 0.9;
+    height: 370px;
+}
+.contact-buttom {
+    /* background-color: #C22277; */
+    min-width: 900px;
+}
+.contact-buttom h3{
+    padding: 5rem 0px 0px 5rem;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#p{
+    padding: 0.5rem 3rem 3rem 5rem;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  
+}
+/* footer */
+footer {
+    padding: 0.5rem 0 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #C2220F;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-width: 900px;
+}
+.list-items{
+  min-width: 100px;
+}
+.logo1{
+    margin-left: 137px; 
+}
+.logo img{
+ min-width: 100px;
+    height: 50px;
+    width: 50px;
+    margin: 1px 1px;
+    margin-bottom: 53px;
+    margin-top: -47px;
+    
+}
+
+.logo1 a:hover{
+    cursor: pointer;
+}
+
+/* Skill section starts */
+.heading{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+margin-top: 0;
+color: #B31166;
+padding-top: 50px;
+    font-size: 5rem;
+   }
+ 
+   .skills{
+ 
+ text-align: center;
+    
+    margin:3rem 0;
+    background-image: url("./image/cartoon.png")  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 904px;
+    min-height: 872px;
+  margin-top: 0;
+  margin-bottom: 0;
+   }
+   .skills .progress{
+    margin-top: 1rem;
+   }
+   .skills .progress .bar{
+    margin: 1rem auto;
+    max-width: 50rem;
+    border:4px solid black;
+    padding: 1rem;
+    border-color: black;
+    border-radius: 25px;
+   }
+ 
+   .skills .progress .bar h3{
+    font-size: 1.3rem;
+    padding: 2rem;
+    display: flex ;
+   
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F47CB9;
+    border-radius: 8px;
+}
+    
+   
+   .skills .progress .bar span{
+    font-weight: normal;
+   }
+   .skills .progress .bar:nth-child(1) h3{
+    width: 95%;
+   }
+   
+   .skills .progress .bar:nth-child(2) h3{
+    width: 80%;
+   }
+   
+   .skills .progress .bar:nth-child(3) h3{
+    width: 65%;
+   }
+   
+   .skills .progress .bar:nth-child(4) h3{
+    width: 70%;
+   }
+    .name{
+    font-family: 'Sacramento', cursive;
+
+   }
+/* Mobile responsive section  */
+@media (max-width:1195px){
+  .container{
+    min-width: 900px;
+    
+    overflow: hidden;
+   
+  }
+  
+  .navbar-list{
+    display: flex;
+   
+  
+  }
+  #about1 .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+ 
+    min-width: 900px;
+
+}
+
+.about>p {
+    padding-left: 0;
+    margin-top: 1rem;
+    width: 350px;
+    font-weight: 550;
+}
+.about >h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #F47CB9;
+}
+.work-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+.work>h2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    font-size: 3rem;
+    color: white;
+}
+#work{
+    min-width: 900px;
+}
+#contact
+ {
+    min-width: 500px;
+ }
+ #contact>div {
+    background: url(./image/abstract-pink-background-with-simply-curve-vector-14058261.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 900px;
+}
+.contact-buttom {
+    /* background-color: #C22277; */
+    min-width: 90  0px;
+}
+}

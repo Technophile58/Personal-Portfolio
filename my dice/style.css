@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.play{
+    display: inline-block;
+    text-align: center;
+}
+.heading{
+    font-size: 2rem;
+    text-align: center;
+}
+img{
+    width: 80%;
+}
